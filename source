@@ -107,11 +107,11 @@ function Kurai_Lib:ToggleUI()
         local startPos = UDim2.new(
             self.MainWindow.Position.X.Scale, 
             self.MainWindow.Position.X.Offset,
-            1, 500
+            2, 100
         )
         local targetPos = UDim2.new(
-            0.4, -self.MainWindow.AbsoluteSize.X/2,
-            0.3, -self.MainWindow.AbsoluteSize.Y/2
+            0.2, -self.MainWindow.AbsoluteSize.X/2,
+            0.2, -self.MainWindow.AbsoluteSize.Y/2
         )
         self.MainWindow.Position = startPos
         
@@ -1790,5 +1790,6 @@ function Kurai_Lib.Rainbow(element, speed)
 end
 
 return Kurai_Lib
+
 
 
