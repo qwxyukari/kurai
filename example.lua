@@ -1,5 +1,5 @@
 local kurai = loadstring(
-    game:HttpGetAsync(`https://raw.githubusercontent.com/focat69/kurai/refs/heads/main/source?t={tostring(tick())}`)
+    game:HttpGetAsync(`https://raw.githubusercontent.com/qwxyukari/kurai/refs/heads/main/source?t={tostring(tick())}`)
 )()
 
 local ui = kurai.new({
@@ -514,4 +514,5 @@ ui:Notify({
     Message = "Kurai UI loaded successfully. Press Left Alt to toggle.",
     Duration = 3,
     Type = "info"
+
 })
